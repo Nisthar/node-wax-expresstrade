@@ -147,8 +147,8 @@ class ITrade extends ETInterface {
       if (token === undefined) {
         throw new Error('token not specified!')
       }
-  }
-
+    }
+  
     if (itemsToSend === undefined) {
       throw new Error('itemsToSend not specified!')
     }
