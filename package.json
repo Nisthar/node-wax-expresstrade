@@ -1,0 +1,60 @@
+{
+  "_from": "wax-expresstrade",
+  "_id": "wax-expresstrade@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-5IDWehb4H++6vwafiBIoQJk0OFRLl/lxr8qkueWgYDMkXP6gJ/XVEOZIWaAGfMcWESZl3QNsZOzZE6gFfy2abg==",
+  "_location": "/wax-expresstrade",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "wax-expresstrade",
+    "name": "wax-expresstrade",
+    "escapedName": "wax-expresstrade",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wax-expresstrade/-/wax-expresstrade-1.0.5.tgz",
+  "_shasum": "5ea6c67ae5a89d684123c82354df40a54be2c34b",
+  "_spec": "wax-expresstrade",
+  "_where": "G:\\wamp64\\www\\casebattle",
+  "author": {
+    "name": "Kacper Geisheimer",
+    "email": "devkarer@gmail.com",
+    "url": "https://karermedia.pl"
+  },
+  "bugs": {
+    "url": "https://github.com/karer/node-wax-expresstrade/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "speakeasy": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Promise-based Node API for WAX Expresstrade.",
+  "homepage": "https://github.com/karer/node-wax-expresstrade",
+  "keywords": [
+    "wax",
+    "expresstrade",
+    "opskins",
+    "vgo"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wax-expresstrade",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karer/node-wax-expresstrade.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.5"
+}
