@@ -139,7 +139,6 @@ class ITrade extends ETInterface {
   }
 
   async SendOffer({ uid, token, itemsToSend, itemsToReceive, message, trade_url }) {
-    
     if(trade_url === undefined){
       if (uid === undefined) {
         throw new Error('uid not specified!')
