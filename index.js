@@ -40,10 +40,16 @@ class ExpressTrade extends EventEmitter {
       auth: { user: this.options.apiKey },
       json: true
     })
+    
+    this.request2 = request.defaults({
+      baseUrl: this.options.apiUrl,
+      auth: { user: this.options.apiKey2 },
+      json: true
+    })
 
     // Initialize interfaces
     this.ICase = new ICase({ request: this.request })
-    this.ICaseSite = new ICaseSite({ request: this.request })
+    this.ICaseSite = new ICaseSite({ request: this.request2 })
     this.IEthereum = new IEthereum({ request: this.request })
     this.IItem = new IItem({ request: this.request })
     this.ITrade = new ITrade({ request: this.request, generateToken: () => this.generateToken() })
