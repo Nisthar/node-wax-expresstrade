@@ -29,11 +29,9 @@ class ExpressTrade extends EventEmitter {
     }
 
     // Initialize internal settings
-    this.options = {
-      apiUrl: 'https://api-trade.opskins.com/',
-      pollInterval: null,
-      ...options
-    }
+  this.options = options;
+    this.options.apiUrl = "https://api-trade.opskins.com/";
+    this.options.pollInterval = null;
 
     this.request = request.defaults({
       baseUrl: this.options.apiUrl,
