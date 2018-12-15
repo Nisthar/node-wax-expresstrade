@@ -1,4 +1,6 @@
-const states = {
+"use strict";
+
+var states = {
   STATE_ACTIVE: 2,
   STATE_ACCEPTED: 3,
   STATE_EXPIRED: 5,
@@ -8,6 +10,6 @@ const states = {
   STATE_PENDING_CASE_OPEN: 9,
   STATE_EXPIRED_CASE_OPEN: 10,
   STATE_FAILED_CASE_OPEN: 12
-}
+};
 
-module.exports = states
+module.exports = states;
